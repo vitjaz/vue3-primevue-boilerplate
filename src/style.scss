@@ -1,0 +1,27 @@
+@import 'primeicons/primeicons.css';
+@import 'primevue/resources/themes/aura-light-blue/theme.css';
+// @import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import 'colors.scss';
+@import 'primeflex/primeflex.css';
+
+// * {
+//   font-family: "Monsterrat", sans-serif;
+// }
+
+body {
+  margin: 0;
+  background-color:  $custom-bg-white;
+}
+
+.text-grey-light {
+  color: $custom-grey-light;
+}
+
+.text-grey {
+  color: $custom-grey;
+}
+
+.p-inputtext {
+  // need for specific cases
+  width: 100%;
+}
